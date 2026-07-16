@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send(`
     <h1 style="text-align:center; font-family:Arial; margin-top:100px; color:#25D366;">
       CONGRATULATIONS YOUR BACKEND IS LIVE<br>
-      <span style="color:#fff">NOVA TECH</span>
+      <span style="color:#fff">ALHAJI MUSA</span>
     </h1>
   `);
 });
@@ -21,10 +21,10 @@ app.get('/', (req, res) => {
 app.get('/api/test', (req, res) => {
   res.json({ 
     status: "success", 
-    message: "CONGRATULATIONS YOUR BACKEND IS LIVE - NOVA TECH" 
+    message: "CONGRATULATIONS YOUR BACKEND IS LIVE - ALHAJI MUSA" 
   });
 });
 
 app.listen(PORT, () => {
-  console.log(`NOVA TECH Backend running on port ${PORT}`);
+  console.log(`ALHAJI MUSA Backend running on port ${PORT}`);
 });
